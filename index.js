@@ -19,7 +19,7 @@ const MongoPath = "mongodb://localhost";
 const STATIC_PATH =
   process.env.NODE_ENV === "production"
     ? `${process.cwd()}/frontend/dist`
-    : `${process.cwd()}/frontend/dist`;
+    : `${process.cwd()}/frontend/`;
 
 
 const app = express();
